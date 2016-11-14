@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">每日一看</string>
+    <string name="action_probelm">有问题请联系</string>
+    <string name="action_collections">收藏</string>
+    <string name="action_shares">分享</string>
+    <!--ToolBar的新闻类型-->
+    <array name="array">
+        <item>头条</item>
+        <item>社会</item>
+        <item>国内</item>
+        <item>国际</item>
+        <item>娱乐</item>
+        <item>体育</item>
+        <item>军事</item>
+        <item>科技</item>
+        <item>财经</item>
+        <item>时尚</item>
+    </array>
+    <string name="title_activity_detail">DetailActivity</string>
+</resources>

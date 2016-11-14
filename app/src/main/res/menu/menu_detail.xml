@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.yidou.wandou.example_11.DetailActivity">
+    <item
+        android:id="@+id/action_shares"
+        android:orderInCategory="100"
+        android:title="@string/action_shares"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_collection"
+        android:orderInCategory="100"
+        android:title="@string/action_collections"
+        app:showAsAction="never"/>
+</menu>
