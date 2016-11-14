@@ -150,14 +150,14 @@ public class MainActivity extends AppCompatActivity
                     case R.id.action_collection:
                         DataBeanDao dao = DbCore.getDaoSession().getDataBeanDao();
                         List<DataBean> been = dao.loadAll();
-                        if (been == null)
+                        Log.e("info", "----------->" + been);
+                        if (been == null | been.size() == 0)
                         {
                             Toast.makeText(MainActivity.this, "小主还未添加任何收藏！", Toast.LENGTH_SHORT).show();
-                        }else
+                        } else
                         {
                             mAdapter.setData(been);
                         }
-
                         setTitle("收藏");
                         mDrawerLayout.closeDrawer(Gravity.LEFT, true);
                         break;
